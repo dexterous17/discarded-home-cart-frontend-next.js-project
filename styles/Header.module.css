@@ -1,0 +1,95 @@
+.navbar {
+    align-items: flex-start;
+    background-color: var(--endeavour);
+    display: flex;
+    height: 50px;
+    padding: 0 13.0px;
+    width: 100%;
+}
+
+.home_cart {
+    align-items: flex-start;
+    border-radius: 5px;
+    display: flex;
+    height: 49px;
+    justify-content: center;
+    margin-left: 8px;
+    min-width: 95px;
+    padding: 11px 0;
+}
+
+.navbar_text {
+    height: 23px;
+    letter-spacing: 0;
+    text-align: center;
+    width: 99px;
+}
+
+.frame_46 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 247px;
+    min-width: 714px;
+}
+
+.search-bar {
+    height: 49px;
+    width: 484px;
+}
+
+.login-button {
+    align-items: flex-start;
+    background-color: var(--endeavour);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    min-height: 43px;
+    width: 135px;
+}
+
+.text_1 {
+    letter-spacing: 0;
+    min-height: 22px;
+    width: 135px;
+}
+
+.text_2 {
+    height: 22px;
+    letter-spacing: 0;
+    text-align: center;
+    width: 135px;
+}
+
+.return-orders {
+    align-items: flex-start;
+    background-color: var(--endeavour);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    min-height: 43px;
+    width: 77px;
+}
+
+.text-3 {
+    letter-spacing: 0;
+    min-height: 22px;
+    width: 77px;
+}
+
+.text-4 {
+    height: 22px;
+    letter-spacing: 0;
+    width: 77px;
+}
+
+.cart {
+    align-self: center;
+    height: 39px;
+    margin-left: 286px;
+    margin-top: 2.24px;
+    width: 64px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300");

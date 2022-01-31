@@ -1,16 +1,93 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+:root {
+    --black:
+        rgba(0, 0, 0, 1);
+    --endeavour-2:
+        rgba(0, 85, 170, 0.969);
+    --endeavour:
+        rgba(0, 85, 170, 1);
+    --seashell:
+        rgba(241, 241, 241, 1);
+    --white:
+        rgba(255, 255, 255, 1);
+
+    --font-size-xxs: 8px;
+    --font-size-xs: 10px;
+    --font-size-s: 13px;
+    --font-size-m: 20px;
+
+    --font-family-roboto: "Roboto";
+    --font-family-roboto-light: "Roboto-Light";
+}
+
+.roboto_normal_black_20px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto_normal_white_20px {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto_normal_black_10px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto_light_white_20px {
+    color: var(--white);
+    font-family: var(--font-family-roboto-light);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto_light_black_13px {
+    color: var(--black);
+    font-family: var(--font-family-roboto-light);
+    font-size: var(--font-size-s);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto_light_white_20px {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto_light_black_13px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-s);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300");
