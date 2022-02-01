@@ -6,34 +6,33 @@ function Header(props) {
   return (
     <div className={styles.navbar}>
       <div className={styles.home_cart}>
-        <div className={`${styles.text_1} ${styles.roboto_light_white_20px}`}>
-          {text1}
+        {text1}
+      </div>
+      <div className={styles.middle}>
+        <div className={styles.searchbar}>
+          <input className={styles.searchbarinput} placeholder='Search here'></input>
+          <button className={styles.searchbarbutton}/>
+        </div>
+        <div className={styles.login}>
+          <div className={styles.loginupper}>
+            Hello, Sign in
+          </div>
+          <div className={styles.loginbottom}>
+            Account & List
+          </div>
+        </div>
+        <div className={styles.orders}>
+        <div className={styles.ordersupper}>
+            Returns
+          </div>
+          <div className={styles.ordersbottom}>
+            & Orders
+          </div>
         </div>
       </div>
-      <img
-        className="search-bar"
-        src="search-bar.svg"
-      />
-      <div className={styles.text}>
-        <div className={`${styles.text_1} ${styles.roboto_light_white_20px}`}>
-          {text2}
-        </div>
-        <div className={`${styles.text_2} ${styles.roboto_normal_white_20px}`}>
-          {text3}
-        </div>
+      <div className={styles.cart}>
+
       </div>
-      <div className="return-orders">
-        <div className={`${styles.text_3} ${styles.roboto_light_white_20px}`}>
-          {text4}
-        </div>
-        <div className={`${styles.text_4} ${styles.roboto_normal_white_20px}`}>
-          {text5}
-        </div>
-      </div>
-      <img
-        className="cart"
-        src="layer-3.svg"
-      />
     </div>
   );
 }
