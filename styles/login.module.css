@@ -1,0 +1,26 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.login_box {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex: auto;
+    background-color: var(--seashell);
+    position: absolute;
+    top: 199px;
+    height: 250px;
+    width: 250px;
+}
+
+.login_text {
+    font-size: var(--font-size-m);
+    color: black;
+    position: absolute;
+    width: 91px;
+    height: 18px;
+    top: 20px;
+}

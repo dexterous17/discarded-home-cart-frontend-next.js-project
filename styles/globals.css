@@ -25,6 +25,7 @@ a {
         rgba(241, 241, 241, 1);
     --white:
         rgba(255, 255, 255, 1);
+    --orange:rgba(249, 180, 45);
 
     --font-size-xxs: 8px;
     --font-size-xs: 10px;
