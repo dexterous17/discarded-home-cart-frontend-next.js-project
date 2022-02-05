@@ -1,10 +1,9 @@
-.login {
+.signup{
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 
-.login_box {
+.signup_box {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -13,26 +12,13 @@
     flex: auto;
     background-color: var(--seashell);
     position: absolute;
-    top: 199px;
-    height: 250px;
+    top: 100px;
+    height: 500px;
     width: 250px;
 }
 
-.login_text {
+.signup_text {
     font-size: var(--font-size-m);
-    color: black;
-    width: 91px;
-    height: 18px;
 }
 
-.login_input_box{
-    display: flex;
-    flex-direction: column;
-}
 
-.login_button {
-    display: flex;
-    width: 65%;
-    justify-content: space-between;
-
-}
