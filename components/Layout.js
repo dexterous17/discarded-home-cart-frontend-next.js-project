@@ -1,33 +1,23 @@
-import Header from './Header'
-import Footer from './Footer'
 import { useRouter } from 'next/router';
 
-function Layout({children}){
+export const Layout = ({ children }) => {
 
     const router = useRouter();
     if (router.pathname.startsWith('/login') || router.pathname.startsWith('/signup')) {
         return (
-          <>
-              {children}
-              <Footer/>
-          </>
+            <div>
+                {children}
+            </div>
         )
-      }
+    }
 
 
-    return(
-        <>
-            <Header text1="Home cart"
-                text2="Hello, Sign in"
-                text3="Account & List"
-                text4="Returns"
-                text5="& Orders" />
+    return (
+        <div>
             <main>
                 {children}
             </main>
-
-            <Footer />
-        </>
+        </div>
     )
 }
 
